@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Dosya yolunu tam olarak belirtiyoruz
-file_path = r'C:\Users\Barış\Desktop\soru1_2_data.xlsx'
+file_path = 'excel_files/soru1_2_data.xlsx'
 
 # Dosyayı yükle
 df = pd.read_excel(file_path)
@@ -53,7 +53,7 @@ results_df = pd.DataFrame({
 print(results_df)
 
 # Tablonun Excel dosyasına kaydedilmesi
-output_file_path = r'C:\Users\Barış\Desktop\contrast_equalization_results.xlsx'
+output_file_path = 'excel_files/contrast_equalization_results.xlsx'
 results_df.to_excel(output_file_path, index=False)
 print(f'Tablo başarıyla {output_file_path} dosyasına kaydedildi.')
 
