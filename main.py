@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Dosya yolunu tam olarak belirtiyoruz
-file_path = 'excel_files/soru1_2_data.xlsx'
+file_path = '../pythonProject4/excel_files/soru1_2_data.xlsx'
 
 # Dosyayı yükle
 df = pd.read_excel(file_path)
